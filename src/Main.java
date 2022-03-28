@@ -4,6 +4,7 @@ public class Main {
         System.out.println("Hello from Tomiris");
         printHelloWorldFromYerzhan();
         System.out.println(sumNum(5, 10));
+        System.out.println(multiple(2, 2));
 
     }
 
@@ -12,6 +13,9 @@ public class Main {
     }
     public static int sumNum(int a, int b){
         return a+b;
+    }
+    public static int multiple(int a, int b){
+        return a*b;
     }
 
     void bubbleSort(int arr[])
