@@ -5,6 +5,7 @@ public class Main {
         printHelloWorldFromYerzhan();
         System.out.println(sumNum(5, 10));
         System.out.println(multiple(2, 2));
+        System.out.println(subtract(4, 1));
 
     }
 
@@ -31,6 +32,10 @@ public class Main {
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
                 }
+    }
+
+    public static int subtract(int a, int b){
+        return a-b;
     }
 
 }
