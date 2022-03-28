@@ -4,7 +4,10 @@ public class Main {
         System.out.println("Hello from Tomiris");
         printHelloWorldFromYerzhan();
         System.out.println(sumNum(5, 10));
-
+        int arr[] = {64, 34, 25, 12, 22, 11, 90};
+        bubbleSort(arr);
+        System.out.println("Sorted array");
+        printArray(arr);
     }
 
     public static void printHelloWorldFromYerzhan(){
@@ -14,7 +17,7 @@ public class Main {
         return a+b;
     }
 
-    void bubbleSort(int arr[])
+    static void bubbleSort(int arr[])
     {
         // with love from Yerzhan <3
         int n = arr.length;
@@ -27,6 +30,15 @@ public class Main {
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
                 }
+    }
+
+    /* Prints the array */
+    static void printArray(int arr[])
+    {
+        int n = arr.length;
+        for (int i=0; i<n; ++i)
+            System.out.print(arr[i] + " ");
+        System.out.println();
     }
 
 }
