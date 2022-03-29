@@ -56,5 +56,6 @@ public class Main {
 
     public static void someText(){
         System.out.println("For merge conflict solve problem");
+        System.out.println("edit from Yerzhan");
     }
 }
