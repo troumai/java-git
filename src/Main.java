@@ -8,6 +8,10 @@ public class Main {
         bubbleSort(arr);
         System.out.println("Sorted array");
         printArray(arr);
+
+        int arr2[] = {435,2343,141,15654,3241,75465};
+        bubbleSort(arr2);
+        printArray(arr2);
     }
 
     public static void printHelloWorldFromYerzhan(){
@@ -40,5 +44,4 @@ public class Main {
             System.out.print(arr[i] + " ");
         System.out.println();
     }
-
 }
