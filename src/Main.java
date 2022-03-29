@@ -54,5 +54,7 @@ public class Main {
         System.out.println();
     }
 
-
+    public static void someText(){
+        System.out.println("For merge conflict solve problem");
+    }
 }
