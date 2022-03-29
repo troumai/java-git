@@ -38,4 +38,8 @@ public class Main {
         return a-b;
     }
 
+    public static void someText(){
+        System.out.println("For merge conflict solve problem");
+    }
+
 }
