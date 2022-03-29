@@ -11,6 +11,10 @@ public class Main {
         bubbleSort(arr);
         System.out.println("Sorted array");
         printArray(arr);
+
+        int arr1[] = {923, 1023, 389, 648, 401, 320, 509};
+        bubbleSort(arr1);
+        printArray(arr1);
     }
 
     public static void printHelloWorldFromYerzhan() {
@@ -49,4 +53,6 @@ public class Main {
             System.out.print(arr[i] + " ");
         System.out.println();
     }
+
+
 }
