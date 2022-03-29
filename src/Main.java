@@ -57,12 +57,9 @@ public class Main {
             System.out.print(arr[i] + " ");
         System.out.println();
     }
-<<<<<<< HEAD
-=======
 
     public static void someText(){
         System.out.println("For merge conflict solve problem");
         System.out.println("edit from Yerzhan");
     }
->>>>>>> master
 }
