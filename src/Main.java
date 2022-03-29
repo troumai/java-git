@@ -12,15 +12,13 @@ public class Main {
         System.out.println("Sorted array");
         printArray(arr);
 
-<<<<<<< HEAD
         int arr2[] = {435,2343,141,15654,3241,75465};
         bubbleSort(arr2);
         printArray(arr2);
-=======
+
         int arr1[] = {923, 1023, 389, 648, 401, 320, 509};
         bubbleSort(arr1);
         printArray(arr1);
->>>>>>> master
     }
 
     public static void printHelloWorldFromYerzhan() {
